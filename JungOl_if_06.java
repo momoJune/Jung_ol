@@ -21,14 +21,14 @@ public class JungOl_if_06
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		String sex = sc.next(); //M , F 입력
-		int age = sc.nextInt(); // 나이 입력
+		String sex = sc.next(); 
+		int age = sc.nextInt(); 
 		
 		if(sex .equals("M"))  					
 		{
 			if(age>=18)						
 			{
-				System.out.println("Man");	
+				System.out.println("MAN");	
 			}
 			else
 			{
